@@ -1,16 +1,10 @@
-# WhatsappIA
-
-Este projeto explora a integração do ChatGPT com o WhatsApp, transformando o chatbot em um assistente virtual capaz de realizar tarefas como falar com amigos, responder a perguntas de clientes, e muito mais, com um toque de humanização nas conversas.
 
 ## 📚 Como funciona
 
-A integração começa com o [wpconnect](https://github.com/wppconnect-team/wppconnect), que estabelece a conexão com o WhatsApp. <br/>
-As mensagens recebidas são então processadas pela API do ChatGPT ou Gemini, que gera respostas coerentes e personalizadas.<br/>
-Utilizamos um [assistant](https://platform.openai.com/docs/assistants/overview) da OpenAI, que é um do modelo OpenAI que foi pré-configurado com prompts detalhados. </br>
-No caso do Gemini usamos um prompt pronto para instruções do modelo. </br>
-Esses prompts orientam o assistente sobre como responder de maneira coerente e personalizada, assegurando que as interações não só se mantenham relevantes e engajantes, mas também reflitam uma abordagem humana e natural na conversação.
+A utiliza-se biblioteca [wpconnect](https://github.com/wppconnect-team/wppconnect), ela faz uma conexão com o WhatsApp. <br/>
+O ChatGPT ou Gemini recebe as mensagens e responde do forma coerente e automatizada.
 
-##Primeiros passos:
+##Como configurar:
 
    * instalar as dependências
 ```
@@ -20,7 +14,7 @@ Esses prompts orientam o assistente sobre como responder de maneira coerente e p
 ```
     npm run config
 ```
-   * Caso queira fazer as configurações pelo genimi selecionar a opção :
+   * para utilizar o genimi selecionar a opção :
 ```
     Generative Language Client
 ```
